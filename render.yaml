@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: stapler-backend
+    env: docker
+    region: frankfurt # or ohio
+    plan: free # Can be starter or standard
+    rootDir: test-agent
+    dockerfilePath: Dockerfile
+    envVars:
+      # These will need to be populated in the Render dashboard!
+      - key: OPENROUTER_API_KEYS
+        sync: false
+      - key: GROQ_API_KEYS
+        sync: false
+      - key: TINYKIT_EMAIL
+        sync: false
+      - key: TINYKIT_PASSWORD
+        sync: false
+      - key: CORS_ORIGINS
+        value: "https://splater.vercel.app,http://localhost:3000" # Update this to your Vercel URL
