@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"name": "hack$",
+			"path": "."
+		},
+		{
+			"name": "Bureau",
+			"path": ".."
+		},
+		{
+			"name": "stapler-main",
+			"path": "../stapler-main"
+		},
+		{
+			"name": "stapler-3ad5fc",
+			"path": "../../../Downloads/stapler-3ad5fc"
+		}
+	],
+	"settings": {}
+}
